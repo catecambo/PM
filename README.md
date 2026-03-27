@@ -5,7 +5,7 @@
 Questo progetto costruisce una pipeline di elaborazione dati per analizzare misure di qualità dell’aria provenienti da un sensore **Nova SDS011** collegato a un **ESP8266 NodeMCU** con firmware **Sensor.Community** (ex Luftdaten).
 
 I dati provengono da file CSV scaricati dal mirror pubblico:
-
+https://api-rrd.madavi.de/csvfiles.php?sensor=esp8266-3459560
 ```
 madavi.de
 ```
@@ -37,6 +37,7 @@ scientificamente coerenti con:
 # Il sensore: Nova SDS011
 
 Il **Nova SDS011** è un sensore ottico a diffusione laser per particolato atmosferico.
+http://en.novasensor.cn/?list_16/55.html
 
 Misura:
 
@@ -44,6 +45,12 @@ Misura:
 | --------- | ----------- | ----- |
 | SDS_P2    | PM2.5       | μg/m³ |
 | SDS_P1    | PM10        | μg/m³ |
+
+Dashboard con i dati in tempo reale:
+https://api-rrd.madavi.de:3000/grafana/d/GUaL5aZMz/pm-sensors?orgId=1&theme=light&var-chipID=esp8266-3459560&var-type=DHT22&var-query0=sensors&from=now-6h&to=now&timezone=browser
+
+Sensor community map:
+https://maps.sensor.community/#14/44.5152/11.3344
 
 Metodo di misura:
 
@@ -665,7 +672,7 @@ Utilizzabili per:
 * Power BI
 * Python analytics
 * dashboard ambientali
-* confronto ARPA
+* confronto ARPA (https://www.bologna-airport.it/innovazione-e-sostenibilita/sostenibilita/ambiente-ed-energia/aria/?idC=62535)
 * analisi traffico
 * pattern stagionali
-* verifica normativa WHO / UE
+* verifica normativa WHO / UE (https://eur-lex.europa.eu/IT/legal-content/summary/quality-and-safety-of-substances-of-human-origin-intended-for-human-application.html)
