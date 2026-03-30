@@ -26,11 +26,15 @@ L’obiettivo della pipeline è produrre dataset aggregati:
 
 scientificamente coerenti con:
 
-* linee guida WHO 2021
-* normativa UE attuale
-* futura normativa UE 2030
-* limiti tecnici del sensore SDS011
+* linee guida WHO 2021 (https://iris.who.int/bitstreams/29a515e7-4810-48f6-b52f-d239df142708/download)
+* normativa UE attuale (https://eur-lex.europa.eu/eli/dir/2008/50/oj/eng)
+* futura normativa UE 2030 (https://eur-lex.europa.eu/EN/legal-content/summary/cleaner-air-for-europe.html)
+* limiti tecnici del sensore SDS011 
 * fenomeni fisici atmosferici reali
+
+Sia WHO che UE hanno un limite di concentrazione media su 24h (PM2.5: 15 μg/m³ WHO, PM10: 45 μg/m³ WHO / 50 μg/m³ UE). Per PM10 la direttiva UE prevede un limite giornaliero da non superare più di 35 volte per anno civile
+
+Tutti i limiti "annui" (WHO: PM2.5 5 μg/m³, PM10 15 μg/m³; UE 2030: PM2.5 10 μg/m³, PM10 20 μg/m³) si calcolano sulla media dell'intero anno solare.
 
 ---
 
