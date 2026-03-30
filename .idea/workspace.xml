@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10d3e41e-9a32-4dd7-8a9f-ca6d4bee4cbc" name="Changes" comment="aggiunta link utili">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viz.py" beforeDir="false" afterPath="$PROJECT_DIR$/viz.py" afterDir="false" />
-    </list>
+    <list default="true" id="10d3e41e-9a32-4dd7-8a9f-ca6d4bee4cbc" name="Changes" comment="fix dashboard e aggiunta link" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1774642488445</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fix dashboard e aggiunta link">
+      <option name="closed" value="true" />
+      <created>1774904525548</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1774904525549</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,7 +233,8 @@
     <MESSAGE value="dashboard html" />
     <MESSAGE value="readme" />
     <MESSAGE value="aggiunta link utili" />
-    <option name="LAST_COMMIT_MESSAGE" value="aggiunta link utili" />
+    <MESSAGE value="fix dashboard e aggiunta link" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix dashboard e aggiunta link" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
